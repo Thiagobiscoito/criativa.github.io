@@ -130,7 +130,6 @@ h2 {
 /* HERO */
 
 .hero {
-  /* background-image: url('./img/Designer.jpeg'); */
   background-color: var(--preto);
   background-size: cover;
   background-position: center;
@@ -140,12 +139,10 @@ h2 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* position: relative; */
 }
 
 .hero .container {
   position: relative;
-  /* z-index: 1; */
   max-width: 800px;
   padding: 20px;
 }
@@ -177,6 +174,7 @@ h2 {
   font-size: 1rem;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
