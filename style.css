@@ -276,7 +276,7 @@ footer .container iframe {
   margin-bottom: 10px;
 }
 
-/* RESPONSIVIDADE  1025px*/
+/* RESPONSIVIDADE  843px*/
 @media (max-width: 843px) {
   .navDesktop .menu-icon i {
     display: block;
@@ -427,7 +427,7 @@ footer .container iframe {
   }
 }
 
-/* RESPONSIVIDADE  450px*/
+/* RESPONSIVIDADE  660px*/
 @media (max-width: 660px) {
   section {
     padding: 2px 0;
@@ -629,6 +629,130 @@ footer .container iframe {
   .container-galeria img {
     width: 100%;
     height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 0 0;
+  }
+
+  footer .container ul {
+    width: 100%;
+  }
+
+  footer .container h3 {
+    margin: 16px 0;
+    font-weight: 700;
+    color: whitesmoke;
+  }
+
+  footer .container p {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 15px;
+    color: whitesmoke;
+  }
+
+  footer .container p i {
+    margin-right: 5px;
+  }
+
+  .fa {
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 9px;
+    font-size: 25px;
+  }
+
+  footer .container iframe {
+    margin-bottom: 10px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+/* RESPONSIVIDADE  518px*/
+@media (max-width: 518px) {
+  .hero {
+    background-color: var(--preto);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: var(--branco);
+  }
+
+  .hero p {
+    font-size: 0.7rem;
+    margin-bottom: 30px;
+    color: var(--branco);
+  }
+
+  /* QUEM SOMOS */
+
+  .quem-somos .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+  }
+
+  .quem-somos .texto {
+    width: 100%;
+  }
+
+  .quem-somos .texto p {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  h2 {
+    display: block;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    color: var(--dourado);
+    margin: 18px 0;
+  }
+
+  .menu-body li a {
+    font-size: 8px;
+    font-weight: 300;
+    color: var(--dourado-claro);
+    transition: 0.3s;
+  }
+
+  /* ESTANDS BASICOS */
+  .container-galeria {
+    margin: 18px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 7px;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .container-galeria img {
+    width: 100%;
+    height: 220px;
     object-fit: cover;
     cursor: pointer;
     border-radius: 5px;
