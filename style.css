@@ -429,30 +429,6 @@ footer .container iframe {
 
 /* RESPONSIVIDADE  450px*/
 @media (max-width: 660px) {
-  .navDesktop .menu-icon i {
-    display: block;
-  }
-
-  .nav-item {
-    display: none;
-  }
-
-  .mobile-menu ul {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 1rem;
-  }
-
-  .mobile-menu .nav-item {
-    display: block;
-    padding-top: 1.2rem;
-  }
-
-  .open {
-    display: block;
-  }
-
   section {
     padding: 2px 0;
     margin: 0;
@@ -566,6 +542,130 @@ footer .container iframe {
     color: #ffffff;
     margin-right: 9px;
     font-size: 22px;
+  }
+
+  footer .container iframe {
+    margin-bottom: 10px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+/* RESPONSIVIDADE  580px*/
+@media (max-width: 580px) {
+  .hero {
+    background-color: var(--preto);
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: var(--branco);
+  }
+
+  .hero p {
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+    color: var(--branco);
+  }
+
+  /* QUEM SOMOS */
+
+  .quem-somos .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+  }
+
+  .quem-somos .texto {
+    width: 100%;
+  }
+
+  .quem-somos .texto p {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  h2 {
+    display: block;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    color: var(--dourado);
+    margin: 18px 0;
+  }
+
+  .menu-body li a {
+    font-size: 9px;
+    font-weight: 300;
+    color: var(--dourado-claro);
+    transition: 0.3s;
+  }
+
+  /* ESTANDS BASICOS */
+  .container-galeria {
+    margin: 22px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 7px;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .container-galeria img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 0 0;
+  }
+
+  footer .container ul {
+    width: 100%;
+  }
+
+  footer .container h3 {
+    margin: 16px 0;
+    font-weight: 700;
+    color: whitesmoke;
+  }
+
+  footer .container p {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 15px;
+    color: whitesmoke;
+  }
+
+  footer .container p i {
+    margin-right: 5px;
+  }
+
+  .fa {
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 9px;
+    font-size: 25px;
   }
 
   footer .container iframe {
