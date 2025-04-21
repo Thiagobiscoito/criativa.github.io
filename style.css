@@ -460,7 +460,7 @@ footer .container iframe {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 8%;
+    padding: 20px 8%;
   }
 
   .quem-somos .texto {
@@ -478,11 +478,18 @@ footer .container iframe {
     font-size: 25px;
     font-weight: 500;
     color: var(--dourado);
-    margin: 30px 0;
+    margin: 14px 0;
+  }
+
+  .menu-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
 
   .menu-body li a {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 100;
     color: var(--dourado-claro);
     transition: 0.3s;
@@ -555,7 +562,7 @@ footer .container iframe {
     background-color: var(--preto);
     background-size: cover;
     background-position: center;
-    height: 280px;
+    height: 250px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -603,8 +610,15 @@ footer .container iframe {
     margin: 18px 0;
   }
 
+  .menu-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+  }
+
   .menu-body li a {
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 300;
     color: var(--dourado-claro);
     transition: 0.3s;
@@ -679,7 +693,7 @@ footer .container iframe {
     background-color: var(--preto);
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 230px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -727,8 +741,15 @@ footer .container iframe {
     margin: 18px 0;
   }
 
+  .menu-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+
   .menu-body li a {
-    font-size: 8px;
+    font-size: 11px;
     font-weight: 300;
     color: var(--dourado-claro);
     transition: 0.3s;
@@ -803,7 +824,7 @@ footer .container iframe {
     background-color: var(--preto);
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 220px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -858,11 +879,18 @@ footer .container iframe {
     font-size: 20px;
     font-weight: 500;
     color: var(--dourado);
-    margin: 18px 0;
+    margin: 10px 0;
+  }
+
+  .menu-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
   }
 
   .menu-body li a {
-    font-size: 7px;
+    font-size: 10px;
     font-weight: 300;
     color: var(--dourado-claro);
     transition: 0.3s;
