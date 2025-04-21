@@ -1137,7 +1137,7 @@ footer .container iframe {
   .menu-body li a {
     font-size: 4px;
     font-weight: 300;
-    color: var(--dourado-claro);
+    color: var(--dourado);
     transition: 0.3s;
   }
 
